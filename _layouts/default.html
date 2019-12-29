@@ -30,17 +30,10 @@
     </div>
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
+   <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {% if page.url == "/" %}
-          {% assign doclist = site.data.samplelist.docs | sort: 'title'  %}
-           <ol>
-             {% for item in doclist %}
-               <li><a href="{{ item.url }}">{{ "```" + item.title + "```" }}</a></li>
-             {% endfor %}
-           </ol>
-         {% endif %}
-       </section>
+        {{ content }}
+      </section>
     </div>
 
     <!-- FOOTER  -->
