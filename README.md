@@ -30,7 +30,7 @@ mov exc, [ebp * 4];
 push ecx;
 ```
 
-```C
+```c
 int main()
 {
     int n1,n2,sum;
