@@ -25,7 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-```asm
+```nasm
 mov exc, [ebp * 4];
 push ecx;
 ```
