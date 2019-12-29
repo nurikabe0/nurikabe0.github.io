@@ -1,4 +1,4 @@
 remote_theme: "dracula/gh-pages"
-title: Malware Dissection
-description: analyzing and reverse engineering malicious software
+title: nurikabe 
+description: Dissecting Malware
 show_header: "true"
