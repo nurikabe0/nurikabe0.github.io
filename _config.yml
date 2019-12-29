@@ -1,3 +1,4 @@
 remote_theme: "dracula/gh-pages"
 title: Malware Dissection
 description: analyzing and reverse engineering malicious software
+show_header: "true"
