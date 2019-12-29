@@ -18,18 +18,20 @@
 
   </head>
   <body class="{{ page.colorspace }}">
+      {% if site.show_header %}
         <div id="header">
-          <nav>
+           <nav>
              <a style="vertical-align: middle;" href="{{ site.github.repository_url }}">View on GitHub </a>
              <img src="https://i.imgur.com/tiW8BpK.png">
           </nav>
-         </div><!-- end header -->
+        </div><!-- end header -->
+      {% endif %}
 
     <div class="wrapper">
       {% if site.show_header %}<section>
       {% else %}<section class="no-header">{% endif %}
         <div id="title">
-            <img src="https://i.imgur.com/wLpdHs3.jpg" />
+          <img src="https://i.imgur.com/ebrrx5m.png" />
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
