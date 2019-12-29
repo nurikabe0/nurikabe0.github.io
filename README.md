@@ -25,7 +25,10 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
+```asm
+mov exc, [ebp * 4];
+push ecx;
+```
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
